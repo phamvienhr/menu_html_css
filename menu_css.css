@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(221, 248, 239);
+    background-size: cover;
+    /* background-position-y: 90px;   */
+    background-image: url( ../menu_html_css/nen.jpeg)  ;
+    /* font-size: 100%; */
+}
+#header {
+    background-color: aquamarine;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display:flex;
+    justify-content: space-between;
+    opacity: 0.8;
+    /* width: 500px; */
+    /* height: 100px; */
+}
+.container {
+    /* max-width: 1000px; */
+    /* margin: 0px; */
+    display: flex;
+}
+nav {
+    display: flex; 
+    /* justify-content: space-around; */
+}
+#logo img {
+    max-width: 150 px;
+    height: auto;
+    left: 0px;
+    position: relative;
+}
+#main-menu {
+    display:flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    /* font: 14px  ; */
+    /* float: inline-end; */
+    /* bottom: 68px; */
+}
+#logo {
+    padding: 6px;
+}
+#main-menu li a {
+    color: rgb(105, 82, 53);
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+#main-menu li {
+    position: relative;
+}
+#main-menu ul.sub-menu {
+    position: absolute;
+    background-color: rgb(201, 201, 241);
+    list-style: none;
+    padding: 0px;
+    width: 300px;
+    height: auto;
+    /* border: 1px solid chocolate; */
+    display:none;
+    /* left: 300PX; */
+}
+#main-menu li:hover>ul.sub-menu {
+    display: block;
+}
+#main-menu ul.sub-menu a {
+    padding: 5px 15px;
+    /* border-bottom: 1px outset  chocolate; */
+    /* border-left: 2px outset #110909; */
+    /* left: 5px; */
+    /* margin:0px; */
+}
+#main-menu ul.sub-menu li:hover>a {
+    border: 1px solid chartreuse;
+}
+#main-menu ul.sub-menu li: last-child a {
+    /* border: none; */
+}
+#main-menu ul.sub-menu ul.sub-menu {
+    left: 302px;
+    top: 0px;
+}
+/* thiet lap border khi hover */
+
